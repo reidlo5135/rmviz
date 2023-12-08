@@ -1,0 +1,29 @@
+{
+    "header": {
+      "robotCorpId": "rco0000043",
+      "workCorpId": "wco0000042",
+      "workSiteId": "wst0000001",
+      "robotId": "rbt0000002",
+      "robotType": "AMR"
+    },
+    "jobInfo": {
+      "jobPlanId": "36a24578-3790-42f4-b456-118950e2aee8",
+      "jobGroupId": "36a24578-3790-42f4-b456-118950e2aee8",
+      "jobOrderId": "36a24578-3790-42f4-b456-118950e2aee8",
+      "jobGroup": "supply",
+      "jobKind": "move"
+    },
+    "jobPath": {
+      "areaClsf": "indoor",
+      "locationList": [
+        {
+          "xpos": 128.85819811415377,
+          "ypos": 35.157786974114245,
+          "floor": "1F"
+        }
+      ],
+      "jobKindType": {
+        "jobTargetID": "PAL001"
+      }
+    }
+  }

@@ -1,0 +1,29 @@
+.btn_group {
+    margin-top: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_path {
+    font-weight: 1000;
+    width: 250px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: 2px solid;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.btn_path:focus {
+    outline: 0;
+}
+
+.btn_path:hover {
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+    color: white;
+    background-color: grey;
+    border: 2px solid;
+    cursor: pointer;
+}
