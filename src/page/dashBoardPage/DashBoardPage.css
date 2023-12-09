@@ -1,5 +1,67 @@
-.btn_group {
-    margin-top: 25%;
+.top_container {
+    margin: 25px auto;
+    width: 1600px;
+    height: 768px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_control_group {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    width: 200px;
+    height: 230px;
+}
+
+.btn_control_group > button:hover {
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+    color: white;
+    background-color: grey;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.btn_control_go {
+    margin-top: 5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.btn_control_stop {
+    margin-top: 5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.btn_path_group {
+    margin-top: 3%;
     display: flex;
     justify-content: space-around;
 }
