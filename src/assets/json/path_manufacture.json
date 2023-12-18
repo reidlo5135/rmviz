@@ -4,12 +4,13 @@
       "workCorpId": "wco0000042",
       "workSiteId": "wst0000001",
       "robotId": "rbt0000002",
-      "robotType": "AMR"
+      "robotType": "AMR",
+      "topicUid": "6e1139a3-a92a-4f18-a8c8-2769406bd61a"
     },
     "jobInfo": {
-      "jobPlanId": "36a24578-3790-42f4-b456-118950e2aee8",
-      "jobGroupId": "36a24578-3790-42f4-b456-118950e2aee8",
-      "jobOrderId": "36a24578-3790-42f4-b456-118950e2aee8",
+      "jobPlanId": "b5d6a822-4634-4c5e-95f2-f5daeee83518",
+      "jobGroupId": "b5d6a822-4634-4c5e-95f2-f5daeee83518",
+      "jobOrderId": "b5d6a822-4634-4c5e-95f2-f5daeee83518",
       "jobGroup": "supply",
       "jobKind": "move"
     },

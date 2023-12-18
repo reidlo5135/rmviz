@@ -77,19 +77,16 @@ export default function DashboardPage() {
             <div className="top_container">
                 <div className="robot_info">
                     <div className="location_info">
-                        <h1>location x : {location?.lastInfo?.location?.xpos}</h1>
-                        <h1>location y : {location?.lastInfo?.location?.ypos}</h1>
-                        <h1>sub_location x : {location?.lastInfo?.subLocation?.xpos}</h1>
-                        <h1>sub_location y : {location?.lastInfo?.subLocation?.ypos}</h1>
+                        <h3>Location</h3>
+                        <pre>{JSON.stringify(location, null, 20)}</pre>
                     </div>
                     <div className="task_event_info">
-                        <h1>jobPlanId : {taskEvent?.taskEventInfo?.jobPlanId}</h1>
-                        <h1>jobGroupId : {taskEvent?.taskEventInfo?.jobGroupId}</h1>
-                        <h1>jobOrderId : {taskEvent?.taskEventInfo?.jobOrderId}</h1>
+                        <h3>TaskEvent</h3>
+                        <pre>{JSON.stringify(taskEvent, null, 20)}</pre>
                     </div>
                     <div className="control_event_info">
-                        <h1>controlId : {controlEvent?.controlResult?.controlId}</h1>
-                        <h1>controlCmd : {controlEvent?.controlResult?.controlCmd}</h1>
+                        <h3>ControlEvent</h3>
+                        <pre>{JSON.stringify(controlEvent, null, 20)}</pre>
                     </div>
                 </div>
                 <div className="btn_control_group">

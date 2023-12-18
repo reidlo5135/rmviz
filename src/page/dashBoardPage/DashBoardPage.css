@@ -7,8 +7,25 @@
     justify-content: space-around;
 }
 
+.robot_info {
+    display: flex;
+    justify-content: space-between;
+    gap: 270px;
+}
+
+.robot_info > div {
+    font-size: 15px;
+    width: 200px;
+    height: 300px;
+    flex: 1;
+}
+
+.location_info {
+    margin-left: -7%;
+}
+
 .btn_control_group {
-    margin-top: 3%;
+    margin-top: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
