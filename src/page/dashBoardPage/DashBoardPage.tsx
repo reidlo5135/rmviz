@@ -11,6 +11,7 @@ import MqttClient from '../../mqtt/mqtt_client';
 import './DashBoardPage.css';
 
 export default function DashboardPage() {
+
     const [mqttClient, setMqttClient] = useState<MqttClient | undefined>();
     const [location, setLocation] = useState<any | undefined>();
     const [taskEvent, setTaskEvent] = useState<any | undefined>();
@@ -64,7 +65,8 @@ export default function DashboardPage() {
         } catch (e: any) {
             console.error('Error fetching JSON or publishing to MQTT:', e);
         }
-    };
+    }
+
 
     useEffect(() => {
         setControlTopic('hubilon/atcplus/rms/rco0000043/rbt0000002/control');
